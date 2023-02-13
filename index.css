@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Archivo:wght@100&family=Brygada+1918&family=Inconsolata:wght@900&family=Nanum+Gothic&family=Oswald:wght@200&family=Sevillana&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url("y.webp");
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    padding: 2rem;
+    top: 0;
+    background-color: black;
+
+    /* position: sticky; */
+}
+
+.navlist {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    /* margin-left: 5rem; */
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.navlist li a:hover {
+    text-decoration: underline;
+
+}
+
+.card {
+    /* text-align: center; */
+    /* margin-top: 23px; */
+    /* padding: 24px; */
+    padding-top: 3rem;
+
+
+}
+
+.weather {
+
+    color: white;
+    width: 30rem;
+    margin: auto;
+    padding: 5rem;
+    background: rgb(0, 0, 0);
+    border-radius: 3rem;
+
+
+}
+
+.search {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3px;
+}
+
+.city {
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 3rem;
+    font-size: 20px;
+    background: none;
+    color: wheat;
+    border: 2px solid white;
+}
+
+.searchbtn {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: wheat;
+}
+
+.searchbtn:hover {
+    background-color: rgb(104, 230, 104);
+}
+
+.ff {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0;
+}
+
+.cityy {
+    padding-left: 27px;
+    font-size: 3rem;
+    color: rgb(175, 175, 250);
+}
+
+.temp {
+    padding: 2rem 0;
+    font-size: 7rem;
+}
+
+.desc {
+    text-transform: uppercase;
+}
+
+.humidity {
+    padding-left: 27px;
+
+}
+
+.wind {
+    padding-left: 27px;
+
+}
+
+.pressure {
+    padding-left: 27px;
+
+}
+
+.sunrise {
+    padding-left: 27px;
+
+}
+
+.sunset {
+    padding-left: 27px;
+
+}
+
+
+.footer .end {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.fore {
+    padding-left: 27px;
+    margin-top: 1rem;
+}
+
+.fore a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.fore a:hover {
+    text-decoration: underline;
+}
+
+.a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.a:link {
+    color: blue;
+}
+
+.a:visited {
+    color: wheat;
+}
+
+.a:focus,
+.a:hover {
+    border-bottom: 1px solid;
+}
+
+.a:active {
+    color: red;
+}
+
+.a[href^="http"] {
+    background: url("external-link-52.png") no-repeat 100% 0;
+    background-size: 16px 16px;
+}
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .navlist {
+        font-size: 15px;
+    }
+
+    .weather {
+        font-size: 11px;
+        width: 16rem;
+        padding: 30px;
+        align-self: center;
+
+    }
+
+    .temp {
+        font-size: 3rem;
+        padding-left: 20px;
+    }
+
+    .cityy {
+        font: 3rem;
+        padding-left: 20px;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search input {
+        width: 165px;
+    }
+
+    .search button {
+        width: 7rem;
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: 15px;
+        padding: 0;
+    }
+}
